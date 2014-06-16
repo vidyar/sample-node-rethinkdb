@@ -1,0 +1,34 @@
+{
+  "name": "sample-node-rethinkdb",
+  "version": "0.0.0",
+  "description": "Testing RethinkDB service",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:OneRedOak/sample-node-rethinkdb.git"
+  },
+  "author": "Patrick Ellis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OneRedOak/sample-node-rethinkdb/issues"
+  },
+  "homepage": "https://github.com/OneRedOak/sample-node-rethinkdb",
+  "dependencies": {
+    "express": "^4.2.0",
+    "rethinkdb": "1.12.*",
+    "should": "^4.0.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt": "^0.4.5",
+    "grunt-express-server": "^0.4.17",
+    "grunt-simple-mocha": "^0.4.0",
+    "istanbul": "^0.2.9",
+    "mocha": "^1.18.2",
+    "superagent": "^0.18.0",
+    "xunit-file": "0.0.5"
+  }
+}
