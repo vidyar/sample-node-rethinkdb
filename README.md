@@ -1,4 +1,4 @@
-Node.js RethinkDB Sample [![Build Status](https://apibeta.shippable.com/projects/5398a9962f1c845800c968dc/badge/master)](https://beta.shippable.com/projects/5398a9962f1c845800c968dc)
+Node.js RethinkDB Sample
 =================
 
 Implements a simple web application using RethinkDB, with tests.
