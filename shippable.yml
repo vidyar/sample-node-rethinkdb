@@ -6,7 +6,7 @@ node_js:
   - 0.10.25
 
 
-# CouchDB binds to 127.0.0.1 by default
+# RethinkDB binds to 127.0.0.1 by default
 services:
   - rethinkdb
 
