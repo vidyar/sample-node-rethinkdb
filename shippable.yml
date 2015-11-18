@@ -23,6 +23,12 @@ before_script:
 script:
   - grunt
 
+notifications:
+  email:
+    recipients:
+       - vidya@shippable.com
+    on_success: always
+    on_failure: always
 build_image: shippable/minv2
 
 # Tell istanbul to generate a coverage report
