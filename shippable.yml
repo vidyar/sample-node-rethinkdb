@@ -11,7 +11,7 @@ services:
   - rethinkdb
 
 branches:
- only:
+ except:
    - pr-test
 # The path for Xunit to output test reports
 env:
