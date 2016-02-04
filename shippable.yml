@@ -10,6 +10,9 @@ node_js:
 services:
   - rethinkdb
 
+branches:
+ only:
+   - master
 # The path for Xunit to output test reports
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
