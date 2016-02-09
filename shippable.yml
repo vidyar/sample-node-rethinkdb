@@ -6,6 +6,10 @@ archive: true
 node_js:
 #  - 0.10.25
 
+branches:
+ only:
+  - master
+
 # RethinkDB binds to 127.0.0.1 by default
 services:
   - rethinkdb
