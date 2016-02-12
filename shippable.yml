@@ -38,3 +38,14 @@ build_image: shippable/minv2
 after_script:
   - ./node_modules/.bin/istanbul cover grunt -- -u tdd
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
+  
+ notifications:
+  email:
+     recipients:
+        - vidya@shippable.com
+        - shiphitchcock2@gmail.com
+     on_success: change
+     on_failure: always
+  irc:
+   pull_requests: true
+   channels:  "chat.freenode.net#test-cock"
