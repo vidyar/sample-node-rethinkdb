@@ -4,15 +4,18 @@ language: node_js
 archive: true
 # Version number
 node_js:
-#  - 0.10.25
+ - 0.10.25
 
 # RethinkDB binds to 127.0.0.1 by default
 services:
-  - rethinkdb
+ - rethinkdb
 
 # The path for Xunit to output test reports
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
+  
+before_install:
+  - npm install 
 
 # Create directories for test and coverage reports
 before_script:
