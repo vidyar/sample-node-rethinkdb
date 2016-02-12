@@ -38,6 +38,6 @@ notifications:
         - shiphitchcock2@gmail.com
      on_success: change
      on_failure: always
-  irc:
-   pull_requests: true
-   channels:  "chat.freenode.net#test-cock"
+  irc: "chat.freenode.net#test-cock"
+  # pull_requests: true
+   #channels:  "chat.freenode.net#test-cock"
