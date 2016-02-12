@@ -26,20 +26,12 @@ before_script:
 script:
   - grunt
 
-notifications:
-  email:
-    recipients:
-       - vidya@shippable.com
-    on_success: always
-    on_failure: always
-build_image: shippable/minv2
-
 # Tell istanbul to generate a coverage report
 after_script:
   - ./node_modules/.bin/istanbul cover grunt -- -u tdd
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
   
- notifications:
+notifications:
   email:
      recipients:
         - vidya@shippable.com
