@@ -36,9 +36,11 @@ notifications:
      recipients:
         - vidya@shippable.com
         - shiphitchcock2@gmail.com
-     on_success: change
+     on_success: always
      on_failure: always
-  irc: 
-  # pull_requests: true
-   channels: 
+  irc:
+   pull_requests: true
+   channels:
+     - "chat.freenode.net#test-irc"
+     - "chat.freenode.net#testing2"
      - "chat.freenode.net#test-cock"
